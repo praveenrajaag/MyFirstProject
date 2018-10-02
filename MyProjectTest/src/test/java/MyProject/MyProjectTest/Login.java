@@ -24,11 +24,11 @@ public class Login {
 		WebElement password = driver.findElement(By.name("password"));
 		
 		password.click();
-		password.sendKeys("karkuzhali-1" + Keys.ENTER);
+		password.sendKeys(Keys.ENTER);
 		Thread.sleep(3000);
 		
-		WebElement logout = driver.findElement(By.xpath("//*[@id=\"gb_71\"]"));
-		logout.click();
+		//WebElement logout = driver.findElement(By.xpath("//*[@id=\"gb_71\"]"));
+		//logout.click();
 		driver.quit();
 		
 		
